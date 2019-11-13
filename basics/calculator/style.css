@@ -1,0 +1,84 @@
+
+/** Medium */
+@font-face {
+    font-family: "SF Display";
+    font-weight: 500;
+    src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+  }
+  
+*{
+    font-family: "SF Display";
+    font-size: 18px;
+}
+.calculator{
+    width:220px;
+    height: 317px;
+    background-color: black;
+    display: inline-block;
+    
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.board{
+    width: 97%;
+    height: 50px;
+    margin: 1px;
+    color: white;
+    background-color: transparent;
+    border-width:0px;
+    border:none;
+    text-align: right;
+    vertical-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.wide-btn{
+    height: 50px;
+    width: 49%;
+    margin: 1px;
+    background-color: #BABABA;
+    color: black;
+    border-width:0px;
+    border:none;
+}
+
+.s-btn{
+    height: 50px;
+    width: 24%;
+    margin: 1px;
+    background-color: #BABABA;
+    color: black;
+    border-width:0px;
+    border:none;
+}
+
+.s-btn.operation{
+    background-color: #F98D00;
+    color: white;
+}
+
+.x-wide-btn{
+    height: 50px;
+    width: 73.7%;
+    margin: 1px;
+    background-color: #BABABA;
+    color: black;
+    border-width:0px;
+    border:none;    
+}
+
+.x-wide-btn:hover,
+.s-btn:hover,
+.wide-btn:hover{
+    background-color: darkgray;
+}
+
+.s-btn.operation:hover{
+    background-color:orangered;
+}
