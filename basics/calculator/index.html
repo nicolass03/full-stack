@@ -8,23 +8,23 @@
         <div class="calculator">
             <p class="board">0</p>
             <div class="buttons">
-                <button class="wide-btn">C</button>
-                <button class="s-btn"><-</button>
-                <button class="s-btn operation">/</button>
+                <button class="wide-btn" onclick="clear()">C</button>
+                <button class="s-btn" onclick="backspace()"><-</button>
+                <button class="s-btn operation" onclick="divide()">/</button>
                 <button class="s-btn" onclick="number(7)">7</button>
                 <button class="s-btn" onclick="number(8)">8</button>
                 <button class="s-btn" onclick="number(9)">9</button>
-                <button class="s-btn operation">x</button>
+                <button class="s-btn operation" onclick="multiplication()">x</button>
                 <button class="s-btn" onclick="number(4)">4</button>
                 <button class="s-btn" onclick="number(5)">5</button>
                 <button class="s-btn" onclick="number(6)">6</button>
-                <button class="s-btn operation">-</button>
+                <button class="s-btn operation" onclick="minus()">-</button>
                 <button class="s-btn" onclick="number(1)">1</button>
                 <button class="s-btn" onclick="number(2)">2</button>
                 <button class="s-btn" onclick="number(3)">3</button>
-                <button class="s-btn operation">+</button>
+                <button class="s-btn operation" onclick="plus()">+</button>
                 <button class="x-wide-btn" onclick="number(0)">0</button>
-                <button class="s-btn operation">=</button>
+                <button class="s-btn operation" onclick="equals()">=</button>
             </div>
         </div>
     </body>
